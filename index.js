@@ -23,10 +23,10 @@ let start = () =>{
         //insere as imagens ao clicar
         x.addEventListener("click", function(){
             if(document.getElementById(`${i+1}`).innerHTML == "" && y == true){
-                document.getElementById(`${i+1}`).innerHTML = `<img src="img/X.png"></img>`
+                document.getElementById(`${i+1}`).innerHTML = `<img src="X.png"></img>`
             }
             else if(document.getElementById(`${i+1}`).innerHTML == "" && y == false){
-                document.getElementById(`${i+1}`).innerHTML = `<img src="img/O.png"></img>`
+                document.getElementById(`${i+1}`).innerHTML = `<img src="O.png"></img>`
             }
         })
         //troca o jogador
